@@ -4,8 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Trotamundos</title>
+<title>Trotamundos: juego de banderas, mapas y países del mundo</title>
 <meta name="author" content="Cristian Vásquez">
+<link rel="canonical" href="https://cristianvasquezd.github.io/Trotamundos/">
+<link rel="icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Trotamundos">
+<meta property="og:title" content="Trotamundos: juego de banderas, mapas y países">
+<meta property="og:description" content="Adivina banderas, ubica países en el mapa, sopa de letras y ahorcado con los 194 países. Gratis, solo o entre dos.">
+<meta property="og:url" content="https://cristianvasquezd.github.io/Trotamundos/">
+<meta property="og:image" content="https://cristianvasquezd.github.io/Trotamundos/largeIcon.png">
 <meta name="description" content="Trotamundos, de Cristian Vásquez: juegos de banderas, mapas, sopa de letras y ahorcado con los 194 países del mundo, para 1 o 2 jugadores.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -253,9 +261,16 @@ footer { display: grid; gap: 6px; justify-items: center; text-align: center; pad
 footer .sig { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; }
 footer .sig span { background: var(--accent); color: var(--accent-ink); padding: 0 .2em; border-radius: 4px; }
 footer small { color: var(--muted); font-size: .78rem; max-width: 60ch; }
+.sitenav { display: flex; gap: 14px; font-weight: 700; font-size: .9rem; }
+.sitenav a { color: var(--ink); text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 4px 14px; justify-content: center; font-size: .85rem; }
+footer nav a { color: var(--ink); }
+.ad { display: grid; gap: 4px; }
+.ad-label { font: 500 .65rem var(--font-mono); letter-spacing: .1em; color: var(--muted); text-transform: uppercase; }
 #confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Trotamundos", "url": "https://cristianvasquezd.github.io/Trotamundos/", "author": {"@type": "Person", "name": "Cristian Vásquez"}, "inLanguage": "es", "genre": ["Educativo", "Geografía", "Trivia"], "gamePlatform": "Navegador web", "applicationCategory": "Game", "numberOfPlayers": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2}, "description": "Juego de geografía con los 194 países: banderas, mapas, sopa de letras y ahorcado."}</script>
 </head>
 <body>
 
@@ -268,6 +283,7 @@ footer small { color: var(--muted); font-size: .78rem; max-width: 60ch; }
       <p class="byline">Un juego de <b>Cristian Vásquez</b></p>
     </div>
     <div class="headr">
+      <nav class="sitenav"><a href="paises/">Países</a><a href="acerca.html">Acerca de</a><a href="contacto.html">Contacto</a></nav>
       <button class="btn ghost small" id="sound" aria-pressed="true">Sonido: activado</button>
       <div class="coords" aria-hidden="true">0°00′N · 0°00′E</div>
     </div>
@@ -459,8 +475,11 @@ footer small { color: var(--muted); font-size: .78rem; max-width: 60ch; }
     <p class="hint">También puedes escribir con el teclado. Las letras van sin tildes.</p>
   </section>
 
+  
+
   <footer>
     <div class="sig">Creado por <span>Cristian Vásquez</span></div>
+    <nav><a href="paises/">Los 194 países</a><a href="acerca.html">Acerca de</a><a href="privacidad.html">Privacidad</a><a href="contacto.html">Contacto</a></nav>
     <small>© 2026 Cristian Vásquez · Trotamundos. Todos los derechos reservados.</small>
     <small>Banderas: flag-icons (licencia MIT). Mapas: Natural Earth (dominio público).</small>
   </footer>

@@ -1,15 +1,11 @@
 # Trotamundos
 
-Un juego de **Cristian Vásquez**.
+Un juego de **Cristian Vásquez**: banderas, mapas, sopa de letras y ahorcado con los 194 países del mundo, para 1 o 2 jugadores.
 
-Cuatro juegos para aprender los 194 países del mundo, solo o entre dos personas:
-
-- **Banderas**: adivina el país por su bandera, con tres niveles de dificultad y modo contrarreloj. Después de cada respuesta aparecen la capital y un dato curioso.
-- **Mapa**: ubica cada país en el mapa de su continente.
-- **Sopa de letras**: encuentra los países escondidos.
-- **Ahorcado**: adivina el país letra a letra.
-
-Es una sola página (`index.html`) que funciona en el navegador, en computadora y en celular.
+- `index.html`: el juego.
+- `paises/`: una ficha por país con su bandera, capital y un dato curioso.
+- `acerca.html`, `contacto.html`, `privacidad.html`: páginas del sitio.
+- `sitemap.xml` y `robots.txt`: para Google.
 
 © 2026 Cristian Vásquez. Todos los derechos reservados.
 

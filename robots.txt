@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cristianvasquezd.github.io/Trotamundos/sitemap.xml
